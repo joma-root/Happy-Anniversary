@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Nica</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Password Gate Screen -->
+    <div class="password-screen" id="passwordScreen">
+        <div class="password-container">
+            <h1 class="password-title">Happy Anniversary</h1>
+            <div class="password-form">
+                <label for="passwordInput" class="password-label">Enter the password to continue</label>
+                <input type="password" id="passwordInput" class="password-input" placeholder="MM-DD-YYYY"
+                    autocomplete="off" aria-describedby="passwordError">
+                <div id="passwordError" class="password-error" aria-live="polite"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content" id="mainContent" style="display: none;">
+        <!-- Audio element for background music -->
+        <audio id="bgMusic" preload="auto">
+            <source src="Tothapi - Panata (Lyrics) [K7QloSPisLg].mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Header with navigation -->
+        <header class="site-header">
+            <h1 class="site-title">Our Love</h1>
+            <nav class="site-nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#letter" class="nav-link">Letter</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#reminder" class="nav-link">Reminder</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-container">
+            <!-- Home Section -->
+            <section id="home" class="section">
+                <div class="section-content">
+                    <!-- Hero Slideshow -->
+                    <div class="hero-slideshow-container">
+                        <div class="hero-slideshow">
+                            <div class="hero-slides">
+                                <div class="hero-slide active">
+                                    <img src="photo_6091469000165934046_y.jpg" alt="Memory 1" class="hero-image">
+                                    <div class="hero-overlay">
+                                        <h3 class="hero-title">For My Nica</h3>
+                                        <p class="hero-subtitle">This website is made specially for you</p>
+                                        <a href="#letter" class="hero-button">View Letter</a>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="photo_6091469000165934296_y.jpg" alt="Memory 2" class="hero-image">
+                                    <div class="hero-overlay">
+                                        <h3 class="hero-title">For My Nica</h3>
+                                        <p class="hero-subtitle">Every moment with you is a treasure</p>
+                                        <a href="#letter" class="hero-button">View Letter</a>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="images/slide3.jpg" alt="Memory 3" class="hero-image">
+                                    <div class="hero-overlay">
+                                        <h3 class="hero-title">For My Nica</h3>
+                                        <p class="hero-subtitle">You are my everything</p>
+                                        <a href="#letter" class="hero-button">View Letter</a>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="images/slide4.jpg" alt="Memory 4" class="hero-image">
+                                    <div class="hero-overlay">
+                                        <h3 class="hero-title">For My Nica</h3>
+                                        <p class="hero-subtitle">I love you more than words can express</p>
+                                        <a href="#letter" class="hero-button">View Letter</a>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="images/slide5.jpg" alt="Memory 5" class="hero-image">
+                                    <div class="hero-overlay">
+                                        <h3 class="hero-title">For My Nica</h3>
+                                        <p class="hero-subtitle">Happy Anniversary, my love</p>
+                                        <a href="#letter" class="hero-button">View Letter</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Letter Section (Flipbook) -->
+            <section id="letter" class="section">
+                <div class="section-content">
+                    <h2 class="section-title">A Letter to My Love</h2>
+                    <div class="flipbook-container">
+                        <div class="flipbook" id="flipbook">
+                            <div class="leaf">
+                                <div class="page front title external">
+                                    <h1>Happy Anniversary My Beautiful Nica</h1>
+                                    <div class="birthday-date">October 21, 2024</div>
+                                </div>
+                                <div class="page back">
+                                    <h2>My Dearest Nica</h2>
+                                </div>
+                                <div class="pageNumber">i</div>
+                            </div>
+
+                            <div class="leaf">
+                                <div class="page front">
+                                    <div class="pageNumber">ii</div>
+                                    <h2>To My Girl, Nica</h2>
+                                    <div class="contents-row">
+                                        <div class="text">Happy anniversary to you my love, I hope you always remember
+                                            how important you are to me and how thankful I am to have someone as special
+                                            as you in my life. Thank you for everything baby, thank you for bringing joy
+                                            in my black and white life. You brought color into my life.</div>
+                                    </div>
+                                </div>
+                                <div class="page back">
+                                    <div class="pageNumber">1</div>
+                                    <h2>I LOVE YOU</h2>
+                                    <p>You come this far my love, I told you kaya mo and look at you now, still standing
+                                        and always making me proud. Happy anniversary to you my one and only Nica! I
+                                        know that life can be tough, but I am here to remind you that you did so well
+                                        baby, and I am so proud of you.</p>
+                                </div>
+                            </div>
+
+                            <div class="leaf">
+                                <div class="page front">
+                                    <div class="pageNumber">2</div>
+                                    <p>I know we have our ups and downs, we argue, we make up, and sometimes we hurt
+                                        each other with words. But my love for you will never change, you are still my
+                                        baby, my love, my everything. I hope you know that no matter how difficult
+                                        things get, I will always choose you. I want to spend the rest of my life with
+                                        you.</p>
+                                </div>
+                                <div class="page back">
+                                    <div class="pageNumber">3</div>
+                                    <p>I'm so grateful for you baby because you make life worth living. I know I am not
+                                        the best partner in the world, but I will always try my best to be the best for
+                                        you. Happy anniversary again my love! I hope you like this simple gift I
+                                        prepared for you. I love you so much and I'm so proud of you for everything you
+                                        do.</p>
+                                </div>
+                            </div>
+
+                            <div class="leaf">
+                                <div class="page front">
+                                    <div class="pageNumber">4</div>
+                                    <p>Thank you for being patient with me when I'm not at my best. Thank you for
+                                        understanding when I need space. Thank you for loving me even when I'm difficult
+                                        to love. You are the best thing that ever happened to me.</p>
+                                </div>
+                                <div class="page back external">
+                                    <div class="pageNumber">5</div>
+                                    <h2>Forever Yours</h2>
+                                    <p>I promise to always be there for you, to support your dreams, to be your safe
+                                        space when the world gets too heavy. I promise to keep choosing you every day,
+                                        just like you choose me. I love you more than words can express.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="controls">
+                            <button id="prevPage" class="nav-button" aria-label="Previous page">
+                                < Previous</button>
+                                    <button id="nextPage" class="nav-button" aria-label="Next page">Next ></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+            <section id="gallery" class="section">
+                <div class="section-content">
+                    <h2 class="section-title">Our Memories</h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-index="0">
+                            <img src="photo_6091469000165934311_y.jpg" alt="Memory 1" loading="lazy">
+                        </div>
+                        <div class="gallery-item" data-index="1">
+                            <img src="images/slide2.jpg" alt="Memory 2" loading="lazy">
+                        </div>
+                        <div class="gallery-item" data-index="2">
+                            <img src="images/slide3.jpg" alt="Memory 3" loading="lazy">
+                        </div>
+                        <div class="gallery-item" data-index="3">
+                            <img src="images/slide4.jpg" alt="Memory 4" loading="lazy">
+                        </div>
+                        <div class="gallery-item" data-index="4">
+                            <video controls>
+                                <source src="videos/clip1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="gallery-item" data-index="5">
+                            <img src="images/slide5.jpg" alt="Memory 6" loading="lazy">
+                        </div>
+                        <div class="gallery-item" data-index="6">
+                            <img src="images/slide1.jpg" alt="Memory 7" loading="lazy">
+                        </div>
+                        <div class="gallery-item" data-index="7">
+                            <img src="images/slide2.jpg" alt="Memory 8" loading="lazy">
+                        </div>
+                        <div class="gallery-item" data-index="8">
+                            <img src="images/slide3.jpg" alt="Memory 9" loading="lazy">
+                        </div>
+                        <div class="gallery-item" data-index="9">
+                            <img src="images/slide4.jpg" alt="Memory 10" loading="lazy">
+                        </div>
+                        <div class="gallery-item" data-index="10">
+                            <video controls>
+                                <source src="videos/clip1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="gallery-item" data-index="11">
+                            <img src="images/slide5.jpg" alt="Memory 12" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reminder Section -->
+            <section id="reminder" class="section">
+                <div class="section-content">
+                    <h2 class="section-title">Reminders</h2>
+                    <div class="reminders-list">
+                        <div class="reminder-item">
+                            <h3>Anniversary</h3>
+                            <p>October 21 - Our special day</p>
+                        </div>
+                        <div class="reminder-item">
+                            <h3>Your Strength</h3>
+                            <p>Remember how proud I am of you</p>
+                        </div>
+                        <div class="reminder-item">
+                            <h3>My Love</h3>
+                            <p>No matter what, I'll always choose you</p>
+                        </div>
+                        <div class="reminder-item">
+                            <h3>Future</h3>
+                            <p>I want to spend forever with you</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <p>Made by jomaroot</p>
+        </footer>
+
+        <!-- Gallery Modal -->
+        <div class="modal" id="galleryModal" style="display: none;">
+            <div class="modal-content">
+                <span class="modal-close" id="modalClose">&times;</span>
+                <div class="modal-body">
+                    <img id="modalImage" src="" alt="Full size view">
+                    <video id="modalVideo" controls style="display: none;">
+                        <source src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <!-- Music Toggle -->
+        <div class="music-toggle" id="musicToggle">
+            <button id="musicButton" aria-label="Toggle music">🔊</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
