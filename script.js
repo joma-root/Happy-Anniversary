@@ -148,8 +148,8 @@ Developer Notes:
             clearInterval(heroInterval);
         }
 
-        // Start the slideshow with 2-second intervals
-        heroInterval = setInterval(nextHeroSlide, 2000);
+        // Start the slideshow with 3-second intervals
+        heroInterval = setInterval(nextHeroSlide, 3000);
     }
 
     function stopHeroSlideshow() {
